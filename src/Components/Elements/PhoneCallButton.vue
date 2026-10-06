@@ -1,13 +1,13 @@
 <template>
     <div
-        class="flex border-1 border-white rounded-2xl px-2 items-center justify-center py-0 overflow-hidden"
+        class="flex border-1 border-white rounded-lg px-2 items-center justify-center py-0 overflow-hidden"
     >
         <img
             src="@/assets/images/phone.svg"
             alt="llamar"
-            width="24"
+            width="2"
             height="20"
-            class="w-6 h-6 mr-2 mt-1"
+            class="w-4 h-4 mr-2 mt-0"
         />
         <div class="text-sm">Llamar ahora</div>
     </div>
