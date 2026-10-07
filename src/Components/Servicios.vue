@@ -33,7 +33,7 @@ const servicios = ref([
 </script>
 
 <template>
-    <div class="bg-white flex text-center justify-center texy-gray-800 pt-4 pb-4">
+    <div class="bg-white flex text-center justify-center text-gray-800 pt-4 pb-4">
         <div class="">
             <!-- Título de servicios -->
             <div>
