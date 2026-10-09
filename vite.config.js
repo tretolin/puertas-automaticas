@@ -8,10 +8,9 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     vue(),
-    tailwindcss(),
+    tailwindcss()
     //vueDevTools(),
   ],
-  base:'/puertas-automaticas/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
