@@ -73,17 +73,17 @@ const slider = ref(null);
 
 // Lista de imágenes
 const images = ref([
-    { url: '../../public/assets/images/work/foto-1.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-2.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-3.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-4.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-5.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-6.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-7.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-8.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-9.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-10.jpeg', alt: ''},
-    { url: '../../public/assets/images/work/foto-11.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-1.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-2.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-3.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-4.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-5.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-6.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-7.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-8.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-9.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-10.jpeg', alt: ''},
+    { url: '/public/assets/images/foto-11.jpeg', alt: ''},
 ]);
 
 // Funciones para desplazar el slider
