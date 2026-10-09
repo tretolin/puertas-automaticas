@@ -8,7 +8,7 @@ onMounted(() => {
     // icon.value = props.icon
 })
 const getImage = (icon) => {
-    return `/src/assets/images/${icon}.svg`
+    return `../../assets//images/${icon}.svg`
 }
 
 const props = defineProps({

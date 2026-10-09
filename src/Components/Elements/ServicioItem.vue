@@ -15,7 +15,8 @@ const props = defineProps({
 })
 
 const getImage = (icon) => {
-    return `/src/assets/images/${icon}.svg`
+    console.log(icon, '')
+    return `../../assets/images/${icon}.svg`
 }
 
 </script>

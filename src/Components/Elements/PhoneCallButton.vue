@@ -3,7 +3,7 @@
         class="flex border-1 border-white rounded-lg px-2 items-center justify-center py-0 overflow-hidden  h-8 "
     >
         <img
-            src="@/assets/images/phone.svg"
+            src="../../../public/assets/images/phone.svg"
             alt="llamar"
             width="2"
             height="20"

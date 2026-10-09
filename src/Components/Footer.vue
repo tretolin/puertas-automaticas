@@ -8,7 +8,7 @@ const words = ref(["Puertas","Refacciones", "Mantenimiento", 'Monterrey, NL']);
         <div class="left">
             <div class="brand-logo">
                 <img
-                    src="@/assets/images/AFA-AUT.svg"
+                    src="../../public/assets/images/AFA-AUT.svg"
                     width="130"
                     alt="Brand Logo"
                 />
@@ -30,13 +30,13 @@ const words = ref(["Puertas","Refacciones", "Mantenimiento", 'Monterrey, NL']);
             <div class="icon-container text-center px-4">
                 <!-- Instagram icon -->
                 <div class="inline">
-                    <img src="@/assets/images/ig_icon.svg" width="22px" alt="instagram"/>
+                    <img src="../../public/assets/images/ig_icon.svg" width="22px" alt="instagram"/>
                 </div>
             </div>
 
             <!-- Facebook icon -->
                 <div class="inline">
-                    <img src="@/assets/images/fb-icon.svg" width="22px" alt="instagram"/>
+                    <img src="../../public/assets/images/fb-icon.svg" width="22px" alt="Facebook"/>
                 </div>
 
             <div class="text-sm pl-4">Síguenos en nuestras redes</div>

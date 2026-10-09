@@ -10,21 +10,12 @@ const props = defineProps({
     }
 })
 
-const images = import.meta.glob(
-    '@/assets/images/gallery/*',
-    {
-        eager: true,
-        query: '?url',
-        import: 'default'
-    }
-)
-
 const backgroundImage = () => {
-    const path = `/src/assets/images/gallery/${props.image}`
-    const image = images[path]
+    const path = `/../../public/assets/images/gallery/${props.image}`
+    // const image = images[path]
 
     return {
-        backgroundImage: `url(${image})`
+        backgroundImage: `url(${path})`
     }
 }
 </script>

@@ -46,7 +46,7 @@ import ServicioBaner from "../Components/Elements/servicioBaner.vue";
 .home-hero {
 position: relative;
 
-background-image: url("@/assets/images/portada.jpg");
+background-image: url("../../public/assets/images/portada.jpg");
 background-size: cover;
 background-position: center;
 }

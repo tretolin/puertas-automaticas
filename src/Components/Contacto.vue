@@ -73,7 +73,7 @@ import PhoneCallButton from './Elements/PhoneCallButton.vue';
             >
             <!-- Imagen estática del mapa o iframe de Google Maps -->
             <img
-                src="@/assets/images/monterrey-maps-gps.png"
+                src="../../public/assets/images/monterrey-maps-gps.png"
                 alt="Mapa Monterrey"
                 class="w-full h-full object-cover"
             />

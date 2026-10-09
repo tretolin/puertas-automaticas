@@ -15,13 +15,12 @@ const linkClass = ref("relative text-gray-300 font-medium py-2 transition-colors
 
 <template>
 <div class="top-bar p-2 flex justify-between items-center">
-
     <!-- Grupo Izquierda: Logo + Links -->
     <div class="flex items-center gap-6">
         <!-- Logo -->
-        <div class="brand-logo">
+        <div class="brand-logo min-w-[100px]">
             <img
-                src="@/assets/images/AFA-AUT.svg"
+                src="../../public/assets/images/AFA-AUT.svg"
                 width="130"
                 alt="Brand Logo"
             />
