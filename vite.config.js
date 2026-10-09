@@ -11,7 +11,7 @@ export default defineConfig({
     tailwindcss(),
     //vueDevTools(),
   ],
-  base:'puertas-automaticas',
+  base:'/puertas-automaticas/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
