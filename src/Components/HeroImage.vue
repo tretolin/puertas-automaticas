@@ -1,6 +1,6 @@
 <script setup>
 import WhatsappButton from "../Components/Elements/WhatsappContact.vue";
-import PhoneCallButtonn from "../Components/Elements/PhoneCallButton.vue";
+import PhoneCallButton from "../Components/Elements/PhoneCallButton.vue";
 import ServicioBaner from "../Components/Elements/servicioBaner.vue";
 </script>
 
@@ -24,10 +24,6 @@ import ServicioBaner from "../Components/Elements/servicioBaner.vue";
     <div class="mt-6 flex">
         <WhatsappButton class="mr-4" />
         <PhoneCallButtonn />
-        <!-- <div class="flex border-1 border-white rounded-2xl px-2 items-center justify-center py-0 px-0 overflow-hidden">
-            <img src="@/assets/images/phone.svg" alt="llamar" width="24" height="20" class="w-6 h-6 mr-2 mt-1" />
-            <div class="text-sm">Llamar ahora</div>
-        </div> -->
     </div>
 
     <!-- Servicio y ubicación -->
