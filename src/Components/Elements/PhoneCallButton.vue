@@ -1,6 +1,6 @@
 <template>
-    <div
-        class="flex border-1 border-white rounded-lg px-2 items-center justify-center py-0 overflow-hidden"
+    <div 
+        class="flex border-1 border-white rounded-lg px-2 items-center justify-center py-0 overflow-hidden  h-8 "
     >
         <img
             src="@/assets/images/phone.svg"
