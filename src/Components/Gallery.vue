@@ -72,18 +72,19 @@ import { ref } from 'vue';
 const slider = ref(null);
 
 // Lista de imágenes
+
 const images = ref([
-    { url: '/public/assets/images/foto-1.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-2.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-3.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-4.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-5.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-6.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-7.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-8.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-9.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-10.jpeg', alt: ''},
-    { url: '/public/assets/images/foto-11.jpeg', alt: ''},
+    { url: '/assets/foto-1.jpg', alt: 'Proyecto 1' },
+    { url: '/assets/foto-2.jpg', alt: 'Proyecto 2' },
+    { url: '/assets/foto-3.jpg', alt: 'Proyecto 3' },
+    { url: '/assets/foto-4.jpg', alt: 'Proyecto 4' },
+    { url: '/assets/foto-5.jpg', alt: 'Proyecto 5' },
+    { url: '/assets/foto-6.jpg', alt: 'Proyecto 6' },
+    { url: '/assets/foto-7.jpg', alt: 'Proyecto 7' },
+    { url: '/assets/foto-8.jpg', alt: 'Proyecto 8' },
+    { url: '/assets/foto-9.jpg', alt: 'Proyecto 9' },
+    { url: '/assets/foto-10.jpg', alt: 'Proyecto 10' },
+    { url: '/assets/foto-11.jpg', alt: 'Proyecto 11' },
 ]);
 
 // Funciones para desplazar el slider
