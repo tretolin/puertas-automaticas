@@ -8,42 +8,42 @@ import Contacto from "./Components/Contacto.vue";
 import Footer from "./Components/Footer.vue";
 </script>
 <template>
-  <div class="main-content p-2 border-1-gray-300 bg-gray-900 text-white">
-    <!-- <TopBar/> ----------------->
-    <section>
-      <div><TopBar /></div>
-    </section>
+    <div
+        class="main-content pt-2 p-2 bg-gray-900 text-white"
+    >
+        <!-- TopBar -->
+        <TopBar id="top-bar" />
 
-    <!-- <Hero Image/> ----------------->
-    <section>
-      <div><HeroImage /></div>
-    </section>
+        <!-- Hero Image -->
+        <section>
+            <HeroImage id="home" />
+        </section>
 
-    <!-- <Servicios/> ----------------->
-    <section>
-      <div><Servicios /></div>
-    </section>
+        <!-- Servicios -->
+        <section id="services" class="scroll-mt-20">
+            <Servicios />
+        </section>
 
-    <!-- <Refacciones/> ----------------->
-    <section>
-      <div><Refacciones /></div>
-    </section>
+        <!-- Refacciones -->
+        <section id="refactions" class="scroll-mt-20">
+            <Refacciones />
+        </section>
 
-    <!-- <Galería/> ----------------->
-    <section>
-      <div><Gallery /></div>
-    </section>
+        <!-- Galería -->
+        <section id="gallery" class="scroll-mt-20">
+            <Gallery />
+        </section>
 
-    <!-- <Contacto/> ----------------->
-    <section>
-      <div><Contacto /></div>
-    </section>
+        <!-- Contacto -->
+        <section id="contact" class="scroll-mt-20">
+            <Contacto />
+        </section>
 
-    <!-- <Footer/> ----------------->
-    <section>
-      <div><Footer /></div>
-    </section>
-  </div>
+        <!-- Footer -->
+        <section>
+            <Footer />
+        </section>
+    </div>
 </template>
 <style lang="scss">
 </style>

@@ -4,17 +4,18 @@ import { ref } from "vue";
 import WhatsappButton from "../Components/Elements/WhatsappContact.vue"
 
 const links = ref([
-    { name: "Inicio", href: "#" },
-    { name: "Servicios", href: "#" },
-    { name: "Refacciones", href: "#" },
-    { name: "Contacto", href: "#" },
+    { name: "Inicio", href: "#home" },
+    { name: "Servicios", href: "#services" },
+    { name: "Refacciones", href: "#refactions" },
+    { name: "Galería", href: "#gallery" },
+    { name: "Contacto", href: "#contact" },
 ]);
 
-const linkClass = ref("relative text-gray-300 font-medium py-2 transition-colors duration-300 hover:text-blue-400 group")
+const linkClass = ref("relative text-gray-300 text-[80%] py-2 transition-colors duration-300 hover:text-blue-400 group")
 </script>
 
 <template>
-<div class="top-bar p-2 flex justify-between items-center">
+<div class="top-bar sticky top-0 z-50 bg-gray-900 p-2 flex justify-between items-center shadow-md">
     <!-- Grupo Izquierda: Logo + Links -->
     <div class="flex items-center gap-6">
         <!-- Logo -->

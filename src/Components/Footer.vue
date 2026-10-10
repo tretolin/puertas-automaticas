@@ -3,7 +3,7 @@ import { ref } from 'vue';
 const words = ref(["Puertas","Refacciones", "Mantenimiento", 'Monterrey, NL']);
 </script>
 <template>
-    <div class="footer flex justify-between p-4">
+    <div class="footer flex justify-between p-4 px-4 text-[80%]">
         <!-- LEFT -->
         <div class="left">
             <div class="brand-logo">
@@ -18,7 +18,7 @@ const words = ref(["Puertas","Refacciones", "Mantenimiento", 'Monterrey, NL']);
         <!-- CENTER -->
         <div class="center">
             <div>
-                <div class="px-4 inline border-r text-gray-200 border-gray-200" v-for="(word, index) in words">
+                <div class="px-2 inline border-r text-gray-200 border-gray-200" v-for="(word, index) in words">
                     {{ word }}
                 </div>
             </div> 
