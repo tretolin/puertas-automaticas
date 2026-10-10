@@ -11,7 +11,7 @@ const props = defineProps({
 })
 
 const backgroundImage = () => {
-    const path = `/../../public/assets/images/gallery/${props.image}`
+    const path = `/../../assets/images/gallery/${props.image}`
     // const image = images[path]
 
     return {
