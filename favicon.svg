@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Opcional: Fondo oscuro si deseas conservar el logo blanco -->
+  <rect width="512" height="512" rx="96" fill="#0F172A"/>
+  
+  <!-- Logo AFA centrado y escalado -->
+  <g transform="translate(64, 200) scale(1.6)">
+    <path d="M70.2346 33.0532H55.1356L41.8025 52.5H20.1591L60.1643 1.5H83.2569L94.7659 52.5H72.6082L70.2346 33.0532ZM70.2346 33.0532L67.7837 14.7196L55.1356 33.0532H70.2346Z" fill="#ffffff"/>
+    <path d="M117.896 0H170.252L167.19 10.9584H136.104L133.616 19.8643H160.168L157.291 30.1617H130.739L124.917 51H103.648L117.896 0Z" fill="#ffffff"/>
+    <path d="M216.623 51L186.492 31.5532L173.159 51H151.516L184.123 0H214.614L235.123 51H216.623ZM216.623 51L197.123 15.5L186.492 31.5532L216.623 51Z" fill="#ffffff"/>
+  </g>
+</svg>
