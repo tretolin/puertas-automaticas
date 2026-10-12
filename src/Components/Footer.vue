@@ -18,9 +18,9 @@ const words = ref(["Puertas","Refacciones", "Mantenimiento", 'Monterrey, NL']);
         <!-- CENTER -->
         <div class="center">
             <div>
-                <div class="px-2 inline border-r text-gray-200 border-gray-200" v-for="(word, index) in words">
+                <!-- <div class="px-2 inline border-r text-gray-200 border-gray-200" v-for="(word, index) in words">
                     {{ word }}
-                </div>
+                </div> -->
             </div> 
         </div>
 
@@ -45,6 +45,12 @@ const words = ref(["Puertas","Refacciones", "Mantenimiento", 'Monterrey, NL']);
 
 
         
+    </div>
+    <!-- Lista de servicios -->
+    <div class="text-center text-gray-600 py-1 border-t border-gray-800">
+        <div class="px-2 inline border-r text-gray-200 border-gray-200" v-for="(word, index) in words">
+            {{ word }}
+        </div>
     </div>
     <div class="text-center text-gray-600 py-1 border-t border-gray-800"> AFA - Siempre en movimiento</div>
 </template>

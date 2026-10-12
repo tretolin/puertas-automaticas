@@ -57,43 +57,19 @@ const servicios = ref([
 
     <!-- Estructura de las opciones -->
 
-    <div class="flex w-full bg-white text-gray-800 text-[12px] pb-4">
-        <div class="flex-1 border-r border-gray-300 px-4 ">
-            <!-- Elemento 1 -->
-            <!-- <div class="servicio-item  text-center">
-                <div class="icon w-full flex justify-center">
-                    <div class=" h-12 w-12 rounded-full bg-blue-100 flex justify-center p-2 mb-2">
-                        <img src="@/assets/images/tool.svg"/>
-                    </div>
-                </div>
-                <div class="font-bold text-center pb-2">
-                    Instalación de puertas automáticas
-                </div>
-                <div> Residenciales, comerciales e industrias</div>
-            </div> -->
-            <!-- <pre>{{ servicios }}</pre> -->
-            <!-- <pre>
-                {{ servicios[0] }}
-            </pre> -->
-            <div class="flex">
-                <ServicioItem
-                    v-for="(servicio, index) in servicios"
-                    :key="index"
-                    :title="servicio.title"
-                    :description="servicio.description"
-                    :icon="servicio.icon"
-                />
-                </div>
-            </div>
-
-        <!-- <div class="flex-1"> -->
-            <!-- Elemento 5 -->
-        <!-- </div> -->
-        <!-- Fin de las opciones -->
-
-    </div> 
-
-
+<div class="flex flex-col md:flex-row w-full bg-white text-gray-800 text-[12px] pb-4">
+    <div class="flex-1 px-4">
+        <div class="flex flex-col md:flex-row divide-y divide-gray-300 md:divide-y-0 md:divide-x">
+            <ServicioItem
+                v-for="(servicio, index) in servicios"
+                :key="index"
+                :title="servicio.title"
+                :description="servicio.description"
+                :icon="servicio.icon"
+            />
+        </div>
+    </div>
+</div>
 </template>
 
 <style>

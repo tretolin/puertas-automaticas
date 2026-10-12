@@ -15,3 +15,8 @@ const link = "https://wa.link/0th1dw";
         </div>
     </a>
 </template>
+<style>
+.whatsapp {
+    background-color: #25D366;
+}
+</style>

@@ -22,7 +22,7 @@ const getImage = (icon) => {
 </script>
 
 <template>
-    <div class="flex-1 border-r border-gray-300">
+    <div class="flex-1 border-r border-gray-300 py-4">
         <div class="servicio-item  text-center">
             <div class="icon w-full flex justify-center px-2">
                 <div class=" h-12 w-12 rounded-full bg-blue-100 flex justify-center p-2 mb-2">

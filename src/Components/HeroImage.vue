@@ -15,7 +15,7 @@ import ServicioBaner from "../Components/Elements/servicioBaner.vue";
     </div>
     <h1 class="text-5xl font-bold uppercase">Puertas</h1>
     <div class="text-5xl font-bold uppercase text-blue-400">Automáticas</div>
-    <p class="text-lg mt-4 text-gray-300 w-[400px]">
+    <p class="text-lg mt-4 text-gray-300 w-100 max-w-[80%]">
         Venta, instalación, mantenimiento y relaciones de puertas automáticas
         para hogares, comercios, industrias y corporativos.
     </p>
