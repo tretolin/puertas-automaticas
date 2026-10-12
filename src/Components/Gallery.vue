@@ -34,7 +34,7 @@
         <div
         v-for="(item, index) in images"
         :key="index"
-        class="flex-none w-full sm:w-[calc(50%-8px)] md:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] aspect-[4/3] rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
+        class="flex-none w-full sm:w-[calc(50%-8px)] md:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] aspect-4/3 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
         >
         <img
             :src="item.url"

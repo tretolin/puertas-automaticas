@@ -9,7 +9,7 @@ import Footer from "./Components/Footer.vue";
 </script>
 <template>
     <div
-        class="main-content pt-2 p-2 bg-gray-900 text-white"
+        class="main-content pt-2 p-2 bg-gray-900 text-white w-full"
     >
         <!-- TopBar -->
         <TopBar id="top-bar" />
