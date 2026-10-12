@@ -27,10 +27,10 @@ const closeMobileMenu = () => {
 <template>
 <!-- Cambiamos sticky por fixed w-full y z-50 (asegúrate de no usar z-1000 ya que Tailwind usa escala estándar como z-50 o z-[1000]) -->
 <nav class="bg-gray-900 fixed top-0 left-0 w-full z-50 border-b border-gray-800 shadow-md">
-    <div class="max-w-screen-xl px-4 py-2 flex justify-between items-center mx-auto">
+    <div class="max-w-7xl px-4 py-2 flex justify-between items-center mx-auto">
         
         <!-- Logo -->
-        <div class="brand-logo min-w-[100px]">
+        <div class="brand-logo min-w-25">
             <img
                 src="../../public/assets/images/AFA-AUT.svg"
                 width="130"

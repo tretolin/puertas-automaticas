@@ -1,5 +1,5 @@
 <template>
-    <a href="tel:+528341483633">
+    <a href="tel:+5218130880648">
         <div class="flex border border-white transition-all hover:border-blue-400 rounded-lg px-2 items-center justify-center py-0 overflow-hidden  h-8 ">
             <img
                 src="../../../public/assets/images/phone.svg"

@@ -16,7 +16,7 @@ import Footer from "./Components/Footer.vue";
 
         <!-- Hero Image -->
         <section>
-            <HeroImage id="home" class=" mt-[60px]" />
+            <HeroImage id="home" class=" mt-15" />
         </section>
 
         <!-- Servicios -->
