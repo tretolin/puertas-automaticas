@@ -4,7 +4,7 @@ const brands = ref(['horton', 'stanley', 'manusa', 'besam','dormakaba']);
 </script>
 
 <template>
-    <div>
+    <div class="bg-white">
     <div class="bg-white flex text-center justify-center text-gray-800 pt-4 pb-0 border-t border-gray-200">
         <div class="">
             <!-- Título de servicios -->
