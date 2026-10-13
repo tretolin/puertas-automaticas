@@ -3,6 +3,7 @@ import TopBar from "./Components/TopBar.vue";
 import HeroImage from "./Components/HeroImage.vue";
 import Servicios from "./Components/Servicios.vue";
 import Refacciones from "./Components/Refacciones.vue";
+import Marcas from "./Components/Marcas.vue";
 import Gallery from "./Components/Gallery.vue";
 import Contacto from "./Components/Contacto.vue";
 import Footer from "./Components/Footer.vue";
@@ -22,6 +23,11 @@ import Footer from "./Components/Footer.vue";
         <!-- Servicios -->
         <section id="services" class="scroll-mt-20">
             <Servicios />
+        </section>
+
+        <!-- Marcas -->
+        <section id="services" class="scroll-mt-20">
+            <Marcas />
         </section>
 
         <!-- Refacciones -->
