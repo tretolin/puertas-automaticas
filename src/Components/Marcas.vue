@@ -12,11 +12,17 @@ const brands = ref(['horton', 'stanley', 'manusa', 'besam','dormakaba']);
                 <div>
                     <div class="text-3xl font-bold uppercase text-blue-400 inline">—</div>
                     <div class="text-md font-bold uppercase inline pl-0 text-gray-800">
-                        Contamos con las mejores marcas
+                        Las mejores marcas
                     </div>
                 </div>
             </div>
+                    <p class="text-sm text-gray-800 w-[80vw] text-[12px]">
+            Mantenemos las mejores marcas de puertas automáticas
+        </p>
         </div>
+
+
+
     </div>
         <!-- </div> -->
         <div class="flex flex-wrap items-center justify-center gap-3 pb-2 w-full bg-white">
